@@ -141,7 +141,7 @@ int doscatt(int bullet, int mode,double dt_drift,double TypicalDist){
   
             //vw2=vw*vw;
             //sigma_m_el = sigma0/(1.0+vr2/vw2); // total cross section  
-            sigma_m_tot = 50; // fixed cross section
+            sigma_m_tot = 0; // fixed cross section
 
             cdx_x = vr_x/vr;
             cdx_y = vr_y/vr;
